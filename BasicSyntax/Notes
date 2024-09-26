@@ -1,0 +1,26 @@
+what is programming?
+    it is an technicle process of giving an instructions to the computer that tells how to perform a task.
+
+what is data structure?
+    it's an named mamory location that can be used to store and organize data.
+
+what is an Algorithm?
+    it's a collection of steps to solve a perticular problem.
+
+Note:
+    DSA are the foundational block of a big building called programming.
+
+why should we need programming languages?
+    computer only understand binary language or 0/1 but human cann't able to write the binary code that way we use higherlevel programming languages that is cpp,java. but computer cann't understand higherlevel laguage also so that we use traslater to translate the highlevel language to binary code.
+
+    there are 2 types of translaters:
+    1. compiler:
+        it compiles whole program at a time and compile it after that machine code will exicute.
+    2. interpretur:
+        it compile program line by line
+
+    higherlevel languages are looks like english language
+
+
+
+Types of programming paradigm:
