@@ -1,4 +1,4 @@
-package problemsOnPattern;
+package problemsOnPatternUsingStars;
 import java.util.Scanner;
 
 class rectangularPattern2{

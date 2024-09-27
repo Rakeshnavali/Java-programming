@@ -1,20 +1,24 @@
-package problemsOnPattern;
-
+package problemsOnNumaricalPattern;
+/*
+ * 
+ *  1 2 3 4
+ *  2 3 4 1
+ *  3 4 1 2 
+ *  4 1 2 3
+ * 
+ */
 import java.util.Scanner;
-
-public class pyramidPattern {
+class rectangularPattern2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of rows: ");
         int rows = sc.nextInt();
-        System.out.println("Enter number of columns: ");
-        int cols = sc.nextInt();
         for(int i=1; i<=rows; i++){
-            for(int j=1; j<=rows-i; j++){
-                System.out.print(" ");
+            for(int j=i; j<=rows; j++){
+                System.out.print(j+" ");
             }
-            for(int j=1; j<=2*i-1; j++){
-                System.out.print("*");
+            for(int k=1; k<=i-1; k++){
+                System.out.print(k+" ");
             }
             System.out.println();
         }
