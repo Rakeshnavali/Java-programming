@@ -24,3 +24,33 @@ why should we need programming languages?
 
 
 Types of programming paradigm:
+
+
+
+
+Arrays:
+
+
+shallow copy: 
+->        capying the array reference
+ex: int arr[] ={1,2,3,5,7}; //it creates an arr ref in stack with memory address(101) this memory is got in heap.
+    int arr_2[] = arr; // it creates an arr_2 ref in stack with momery address of arr(101)
+
+->   if we change the value in any array we can observe the changes in both array because they have same memory reference.
+
+
+
+
+deep copy(cloning): 
+ ->         copy array will get diff memory address but but copy the address from main array 
+ex:  int arr[] ={1,2,3,5,7};  //it creates an arr ref in stack with memory address(101) this memory is got in heap memory
+    int arr_2[] = arr.clone(); // it creates an arr_2 ref in stack with arr elements at diff memory address in heap
+
+->    we can done deep copy by using Arrays.copy(arr,length)
+ex:    int arr[] ={1,2,3,5,7};  //it creates an arr ref in stack with memory address(101) this memory is got in heap memory
+       int arr_2[] = Arrays.copyOf(arr,5);  //this method need 2 parameters 1. array tells from which array we are coping the elements
+                                                                            2. length 
+
+->   if we change the value in any array we can observe the changes in that array only it willn't change both array values 
+
+          
